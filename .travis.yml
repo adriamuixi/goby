@@ -6,3 +6,6 @@ deploy:
   keep_history: true
   on:
     branch: master
+
+go_import_path:
+  - github.com/adriamuixi/goby
