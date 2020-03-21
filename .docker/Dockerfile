@@ -3,7 +3,7 @@ LABEL maintainer="Adrià Muixí <adriamuixi@gmail.com>"
 
 ENV GO111MODULE=on
 
-WORKDIR /go/src/github.com/goby/
+WORKDIR /go/src/github.com/adriamuixi/goby/
 
 COPY ./.docker/dev-entrypoint.sh /dev-entrypoint.sh
 RUN chmod +x /dev-entrypoint.sh
@@ -11,7 +11,7 @@ RUN chmod +x /dev-entrypoint.sh
 COPY ./src/go.mod ./src/go.sum ./
 RUN go mod download
 
-COPY ./src /go/src/github.com/goby
+COPY ./src /go/src/github.com/adriamuixi/goby
 RUN go build
 
 CMD ["./goby"]

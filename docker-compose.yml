@@ -12,5 +12,5 @@ services:
     ports: 
       - 7081:80
     volumes: 
-      - ./src:/go/src/github.com/goby
+      - ./src:/go/src/github.com/adriamuixi/goby
     

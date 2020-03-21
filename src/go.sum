@@ -1,3 +1,4 @@
+github.com/goby/config v0.0.0-20140626063119-519ff67222c0 h1:CcZwraFyfgpzZQ/UZfB9tDTkz4031joacswP/BKUAN4=
 github.com/gorilla/mux v1.7.4 h1:VuZ8uybHlWmqV03+zRzdwKL4tUnIp1MAQtp1mIFE1bc=
 github.com/gorilla/mux v1.7.4/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
 github.com/howeyc/fsnotify v0.9.0 h1:0gtV5JmOKH4A8SsFxG2BczSeXWWPvcMT0euZt5gDAxY=

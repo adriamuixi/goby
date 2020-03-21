@@ -1,4 +1,4 @@
-module github.com/goby
+module github.com/adriamuixi/goby
 
 go 1.13
 
