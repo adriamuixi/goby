@@ -32,7 +32,7 @@ func main() {
 
 	if err != nil {
 		logger.Error.Println("Server - ERROR: ", err)
+		panic(err)
 	}
 
-	logger.Info.Println("Server ready - Running")
 }

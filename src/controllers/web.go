@@ -22,7 +22,7 @@ func Home(res http.ResponseWriter, req *http.Request) {
 
 	user := User{Id: 1,
 		Name:  "John Doe",
-		Email: "johndoe@examle.cm",
+		Email: "djsj@emm",
 		Phone: "00009"}
 	t.Execute(res, user)
 }

@@ -1,22 +1,16 @@
 version: "3.5"
 services: 
   web:
+    container_name: web_go_server
     build:
       context: .
       dockerfile: .docker/Dockerfile
     image: goby
+    entrypoint: /dev-entrypoint.sh
     environment: 
       - ENVIRONMENT=dev
     ports: 
-      - 8081:80
-      - 8082:443
-    networks:
-      - goby
-
-networks: 
-  goby:
-    name: goby_network
-    ipam:
-      config:
-        - subnet: "${NETWORK_SUBNET}"
-
+      - 7081:80
+    volumes: 
+      - ./src:/go/src/bitbucket.org/goby
+    

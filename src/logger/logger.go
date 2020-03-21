@@ -41,16 +41,16 @@ func InitLogger(configuration *config.LoggerConfig) {
 	}
 
 	Trace = log.New(traceHandle,
-		"brand-service.TRACE: ",
+		"Web.TRACE: ",
 		log.Ldate|log.Ltime|log.Lshortfile)
 	Info = log.New(infoHandle,
-		"brand-service.INFO: ",
+		"Web.INFO: ",
 		log.Ldate|log.Ltime|log.Lshortfile)
 	Warning = log.New(warningHandle,
-		"brand-service.WARNING: ",
+		"Web.WARNING: ",
 		log.Ldate|log.Ltime|log.Lshortfile)
 	Error = log.New(errorHandle,
-		"brand-service.ERROR: ",
+		"Web.ERROR: ",
 		log.Ldate|log.Ltime|log.Lshortfile)
 
 }
