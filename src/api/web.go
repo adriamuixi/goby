@@ -1,7 +1,7 @@
 package api
 
 import (
-	"bitbucket.org/goby/controllers"
+	"github.com/goby/controllers"
 	"github.com/gorilla/mux"
 )
 

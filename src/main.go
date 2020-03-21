@@ -6,9 +6,9 @@ import (
 	"os"
 	"strings"
 
-	"bitbucket.org/goby/api"
-	"bitbucket.org/goby/config"
-	"bitbucket.org/goby/logger"
+	"github.com/goby/api"
+	"github.com/goby/config"
+	"github.com/goby/logger"
 	"github.com/gorilla/mux"
 )
 

@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"bitbucket.org/goby/config"
+	"github.com/goby/config"
 )
 
 var (

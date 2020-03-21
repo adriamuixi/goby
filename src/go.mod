@@ -1,4 +1,4 @@
-module bitbucket.org/goby
+module github.com/goby
 
 go 1.13
 
