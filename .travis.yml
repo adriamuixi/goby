@@ -7,5 +7,4 @@ deploy:
   on:
     branch: master
 
-go_import_path:
-  - github.com/adriamuixi/goby
+go_import_path: github.com/adriamuixi/goby
