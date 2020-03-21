@@ -1,0 +1,22 @@
+version: "3.5"
+services: 
+  web:
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    image: goby
+    environment: 
+      - ENVIRONMENT=dev
+    ports: 
+      - 8081:80
+      - 8082:443
+    networks:
+      - goby
+
+networks: 
+  goby:
+    name: goby_network
+    ipam:
+      config:
+        - subnet: "${NETWORK_SUBNET}"
+

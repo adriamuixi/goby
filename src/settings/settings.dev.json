@@ -1,0 +1,8 @@
+{
+    "Logger": {
+        "Error": true,
+        "Info": true,
+        "Warning": true,
+        "Trace": true
+    }
+}
