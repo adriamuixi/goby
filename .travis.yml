@@ -20,3 +20,6 @@ notifications:
 # Only clone the most recent commit.
 git:
   depth: 1
+
+script:
+ - go test -v ./...
