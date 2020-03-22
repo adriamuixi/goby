@@ -9,7 +9,7 @@ deploy:
 
 go_import_path: github.com/adriamuixi/goby
 dist: bionic
-env: GO111MODULE=on GOFLAGS='-mod=vendor'
+env: GO111MODULE=on
 notifications:
   email: false
 # You don't need to test on very old versions of the Go compiler. It's the user's
