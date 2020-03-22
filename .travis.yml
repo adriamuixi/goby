@@ -21,5 +21,6 @@ notifications:
 git:
   depth: 1
 
-script:
- - go test -v ./...
+before_script:
+  - go get github.com/gorilla/mux
+  - go get github.com/pilu/fresh
