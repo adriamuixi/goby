@@ -6,7 +6,7 @@ import (
 )
 
 type Configuration struct {
-	Logger  LoggerConfig
+	Logger LoggerConfig
 }
 
 func LoadConfig(path string) Configuration {
