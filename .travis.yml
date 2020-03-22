@@ -22,5 +22,4 @@ git:
   depth: 1
 
 before_script:
-  - go get github.com/gorilla/mux
-  - go get github.com/pilu/fresh
+- go get -t -v ./...
